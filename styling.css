@@ -2,7 +2,7 @@ body{
 	background-color:#110824 ;
 }
 .nav-box{
-	height: 100vh;
+	height: 120vh;
 	background-color: #1d1138;
 	display: inline-block;
 
@@ -59,8 +59,86 @@ body{
 	color:white;
 }
 
+.image-container{
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 250px;
+	border: 2px solid white;
+	border-radius: 3px;
+}
 
+tr, td{
+	margin: 5px;
+	height:80px;
+}
 
+.select-item{
+	width:180px;
+	background-color: #110824;
+	border:none;
+}
+
+.outer-box{
+	padding: 8px;
+	margin-top: 25px;
+
+}
+
+.div-box{
+	height:120px;
+}
+.inner-box{
+	border: 2px solid white;
+	border-radius: 3px;
+	height: 102px;
+
+}
+
+.img-frame{
+	margin-top:10px;
+	margin-left: 10px;
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	float: left;
+}
+
+h5{
+	color: white;
+}
+
+.person-name{
+	color: white;
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+.progress-bar-container{
+	margin-top: 45px;
+	height:10px;
+	width: 70%;
+	background-color: black;
+}
+
+.form-class{
+	border-radius:5px;
+	background-color: #110824;
+	border:none;
+	color: white;
+}
+.progress{
+	height:9.5px;
+	background-color:yellow;
+	width:50%;
+	float: left;
+}
+.percentage{
+	float: right;
+	color: white;
+	font-size:12px;
+	margin-right: 15px;
+	margin-top: -15px;
+}
 .nav-box li:hover{
 	background-color: #331e5e;
 }
